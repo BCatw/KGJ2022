@@ -13,8 +13,8 @@ public class Controller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isControlable) animator.SetTrigger(aniKeyNext);
     }
 
-    public void SetControllable(bool value)
+    public void SwitchControllable()
     {
-        isControlable = value;
+        isControlable = !isControlable;
     }
 }
