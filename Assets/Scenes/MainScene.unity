@@ -1529,6 +1529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueDatas:
   - {fileID: 11400000, guid: a4ddd7ae96a6ee64498da0a31218556a, type: 2}
+  - {fileID: 11400000, guid: a4ddd7ae96a6ee64498da0a31218556a, type: 2}
   nameText: {fileID: 3353206193115197495}
   warningText: {fileID: 5605104962795157102}
   dialogueText: {fileID: 5328409214052722176}
