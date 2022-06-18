@@ -48,18 +48,14 @@ public class DialogueWriter : MonoBehaviour
         WriteNext(nowData.warnnig, ref warningIndex, warningText);
     }
 
-    public void LoadData(int index)
+    public void LoadDataAndWriteFirst(int index)
     {
         nowData = dialogueDatas[index];
-        nameText.text = nowData.name;
         dialogueIndex = 0;
         warningIndex = 0;
 
+        Write(nowData.name, nameText);
         Write(nowData.dialogue[dialogueIndex], dialogueText);
-    }
-
-    public void StartWarning()
-    {
-        Write( nowData.dialogue[warningIndex], warningText);
+        Write(nowData.warnnig[warningIndex], warningText);
     }
 }

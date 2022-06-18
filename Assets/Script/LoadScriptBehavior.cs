@@ -9,6 +9,6 @@ public class LoadScriptBehavior : StateMachineBehaviour
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
         DialogueWriter writer = DialogueWriter.Writer();
-        writer.LoadData(loadIndex);
+        writer.LoadDataAndWriteFirst(loadIndex);
     }
 }
