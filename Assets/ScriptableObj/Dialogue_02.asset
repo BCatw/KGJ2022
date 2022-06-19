@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "\u66F4\u4E3B\u8981\u5B87\u5B99\u7684Capsule (1)"
   warnnig:
-  - "\u6309 \"F\" \u4EE3\u66FF\u4F60\u4F86\u81EA\u5167\u5FC3\u6DF1\u8655\u7684\u547C\u558A"
+  - "\u6309 \"F\" \u4EE3\u66FF\u4F60\u60F3\u4E0B\u73ED\u7684\u5FC3"
   dialogue:
   - "\u54C7\u5594\uFF01"
   - "\u5687\u6211\u4E00\u8DF3"
