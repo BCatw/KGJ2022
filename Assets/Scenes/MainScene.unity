@@ -1969,6 +1969,7 @@ GameObject:
   - component: {fileID: 3353206192511141146}
   - component: {fileID: 3353206192511141144}
   - component: {fileID: 3353206192511141145}
+  - component: {fileID: 3353206192511141148}
   m_Layer: 5
   m_Name: Root_Warning
   m_TagString: Untagged
@@ -1976,6 +1977,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!225 &3353206192511141148
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3353206192511141147}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!222 &3353206192906075356
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2624,7 +2637,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 300
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
