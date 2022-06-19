@@ -5,11 +5,12 @@ using UnityEngine;
 public class Controller : MonoBehaviour
 {
     [SerializeField] bool isControlable = false;
+    [SerializeField] string buttonKey = "Fire1";
     public Animator animator;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isControlable) animator.SetTrigger(AnimatorKey.Next);
+        if (Input.GetButton(buttonKey) && isControlable) animator.SetTrigger(AnimatorKey.Next);
     }
 
     public void SwitchControllable()
