@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 237b76548155ce14893c1b47fcd45f7e, type: 3}
   m_Name: Dialogue_01
   m_EditorClassIdentifier: 
-  name: "\u4E3B\u8981\u5B87\u5B99\u7684Capsule(1)"
+  name: "\u4E3B\u8981\u5B87\u5B99\u7684Capsule (1)"
   warnnig:
   - "\u6309 \"F\" \u767C\u52D5\u666E\u901A\u653B\u64CA"
   - "\u6309 \"F\" \u9080\u8ACB\u52A0\u5165\u9B54\u738B\u8A0E\u4F10\u968A"
