@@ -657,7 +657,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press "Space" To Start
+  m_Text: Press "F" To Start
 --- !u!222 &374963553
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -682,7 +682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &389595653
 RectTransform:
   m_ObjectHideFlags: 0
@@ -841,7 +841,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press "Space" To Title
+  m_Text: Press "F" To Title
 --- !u!222 &524896228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1794,6 +1794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainChar_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1559416394892409266, guid: a0c000a00091f8349841d88992d8ede0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1559416394892409267, guid: a0c000a00091f8349841d88992d8ede0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1886,7 +1890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 180, y: 0}
+  m_AnchoredPosition: {x: 120, y: 0}
   m_SizeDelta: {x: 920, y: 150}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &2429927902311598826
@@ -2036,7 +2040,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 300}
+  m_AnchoredPosition: {x: 0, y: 337.1}
   m_SizeDelta: {x: 750, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &3353206192511141147
@@ -2689,7 +2693,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 150, y: 150}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &5328409214052722176
 MonoBehaviour:
@@ -2758,7 +2762,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6309\u4E0BK\u9375\u4EE5\u7D50\u675F\u9019\u500B\u904A\u6232"
+  m_Text: "\u6309\u4E0BF\u9375\u4EE5\u7D50\u675F\u9019\u500B\u904A\u6232"
 --- !u!1 &5651023838662011086
 GameObject:
   m_ObjectHideFlags: 0
