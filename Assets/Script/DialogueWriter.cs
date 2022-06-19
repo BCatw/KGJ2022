@@ -18,6 +18,8 @@ public class DialogueWriter : MonoBehaviour
     [SerializeField] DialogueData nowData;
     [SerializeField] int dialogueIndex;
     [SerializeField] int warningIndex;
+    [SerializeField] int dataIndex;
+    public int GetDataIndex() => dataIndex;
 
     static DialogueWriter writer;
     static public DialogueWriter Writer() => writer;
@@ -48,8 +50,21 @@ public class DialogueWriter : MonoBehaviour
         WriteNext(nowData.warnnig, ref warningIndex, warningText);
     }
 
+    public bool CheckIsOver()
+    {
+        int i = dataIndex + 1;
+        return i >= dialogueDatas.Length;
+    }
+
     public void LoadDataAndWriteFirst(int index)
     {
+        if(index >= dialogueDatas.Length)
+        {
+            Debug.LogError("Index over");
+            return;
+        }
+
+        dataIndex = index;
         nowData = dialogueDatas[index];
         dialogueIndex = 0;
         warningIndex = 0;

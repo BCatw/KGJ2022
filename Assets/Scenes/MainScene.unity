@@ -1530,12 +1530,14 @@ MonoBehaviour:
   dialogueDatas:
   - {fileID: 11400000, guid: 5011cbecef765d046b0f9e31faa111cf, type: 2}
   - {fileID: 11400000, guid: da817ab27c3588f4ea219f34c01112e5, type: 2}
+  - {fileID: 11400000, guid: 5011cbecef765d046b0f9e31faa111cf, type: 2}
   nameText: {fileID: 3353206193115197495}
   warningText: {fileID: 5605104962795157102}
   dialogueText: {fileID: 5328409214052722176}
   nowData: {fileID: 0}
   dialogueIndex: 0
   warningIndex: 0
+  dataIndex: 0
 --- !u!1 &1602949981
 GameObject:
   m_ObjectHideFlags: 0
