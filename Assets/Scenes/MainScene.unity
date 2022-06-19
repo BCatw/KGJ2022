@@ -1443,6 +1443,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 50269e9a561ceef4a8f73cd97f822561, type: 3}
   SFXList:
   - {fileID: 8300000, guid: 25ab2a5d437cdb2419360ba892679242, type: 3}
+  - {fileID: 8300000, guid: 775fc86c36d925b45b26a375fc8ad85f, type: 3}
   BGMAS: {fileID: 1899835684}
   SFXAS: {fileID: 1719158722}
 --- !u!1 &1551276921

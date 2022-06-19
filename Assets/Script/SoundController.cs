@@ -8,7 +8,14 @@ public class SoundController : MonoBehaviour
     [SerializeField] AudioClip[] SFXList;
     [SerializeField] AudioSource BGMAS;
     [SerializeField] AudioSource SFXAS;
-    
+    static SoundController soundController;
+    static public SoundController Instance() => soundController;
+
+    private void Awake()
+    {
+        soundController = this;
+    }
+
     public void PlaySFX(int index)
     {
         SFXAS.PlayOneShot(SFXList[index]);
