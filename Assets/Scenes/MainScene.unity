@@ -1416,7 +1416,7 @@ MonoBehaviour:
   dialogueDatas:
   - {fileID: 11400000, guid: 5011cbecef765d046b0f9e31faa111cf, type: 2}
   - {fileID: 11400000, guid: da817ab27c3588f4ea219f34c01112e5, type: 2}
-  - {fileID: 11400000, guid: a4ddd7ae96a6ee64498da0a31218556a, type: 2}
+  - {fileID: 11400000, guid: 8dea3057989ccc74fbc1f8e07bffb014, type: 2}
   nameText: {fileID: 3353206193115197495}
   warningText: {fileID: 5605104962795157102}
   dialogueText: {fileID: 5328409214052722176}
